@@ -21,6 +21,47 @@
         android:listSelector="#00000000">
 
     </ListView>
+    <fragment
+        android:name="com.example.angelina.amherstdo.EventFragment"
+        android:id="@+id/eFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Event "
+        android:id="@+id/searchbutton"
+        android:onClick="onSearch"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentStart="true" />
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Search"
+        android:id="@+id/clearbutton"
+        android:layout_gravity="right"
+        android:nestedScrollingEnabled="false"
+        android:onClick="clear"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
 
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Enter Event Keyword (Title or Description)"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/grey"
+        android:layout_weight="0.35"
+        android:layout_above="@+id/searchbutton"
+        android:layout_alignParentStart="true" />-->
 </RelativeLayout>

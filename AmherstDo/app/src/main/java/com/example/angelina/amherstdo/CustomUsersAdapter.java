@@ -37,6 +37,10 @@ public class CustomUsersAdapter extends ArrayAdapter<User> {
          tvPriority.setText(user.priority);
 
 
+
+
+
+
 tvCheck.setOnClickListener(new View.OnClickListener()
 {
     @Override
