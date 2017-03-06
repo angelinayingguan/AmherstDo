@@ -75,7 +75,7 @@ public class EventFragment extends Fragment {
 
     public ArrayList<User> loadItems() {
         this.items = new ArrayList();
-        this.items.add(new User("440 econ journal", "due 4.21 night", "Urgent"));
+        this.items.add(new User("440 econ journal", "due tmr", "Urgent"));
         this.items.add(new User("201 meeting", "meet tonight", "Urgent"));
         this.items.add(new User("310 aper", "write it tonight", "Important"));
         this.items.add(new User("405 cardio", "cardio at 4:05", "Beneficial"));
